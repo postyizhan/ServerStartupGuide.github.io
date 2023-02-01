@@ -1,0 +1,475 @@
+@media (min-width: 768px) {
+  .markdown-section #book-cover {
+    display: flex;
+    margin: 0 auto;
+  }
+  .markdown-section img {
+    max-height: 460px;
+  }
+}
+@media (max-width: 500px) {
+  .book-body .body-inner {
+    overflow-y: unset;
+  }
+  .wxpay-logo,
+  .alipay-logo {
+    height: 26px;
+    max-width: 68px;
+  }
+  .header-inner #book-search-input {
+    width: 100% !important;
+  }
+  .header-nav {
+    display: none !important;
+  }
+  .title,
+  .logo {
+    display: none !important;
+  }
+  .book-anchor {
+    display: none !important;
+  }
+  .page-inner {
+    padding: 20px 20px 20px 20px !important;
+  }
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei',
+    '\9ED1\4F53', Arial, sans-serif;
+  letter-spacing: 0.2px;
+  text-rendering: optimizeLegibility;
+}
+.article-title {
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 0.5em;
+  color: var(--ThemeColor);
+  font-weight: bold;
+}
+#hidden-autonumber {
+  display: none;
+}
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4,
+.markdown-section h5,
+.markdown-section h6 {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+.markdown-section p {
+  line-height: 2;
+}
+.markdown-section img {
+  margin: 0 auto; /* 图片居中 */
+  display: flex; /* 图片居中 */
+  padding: 8px;
+  background: #e4e4e478;
+  transition: all 1s;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px #dcdcdc;
+  max-width: 95%;
+}
+.markdown-section img:hover {
+  box-shadow: 0 0 10px #bbb;
+}
+
+.exc-trigger {
+  color: #333333;
+}
+
+.navigation {
+  display: none;
+}
+
+/*Book inner page*/
+
+.book-summary-title {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 30px;
+  font-size: 16px;
+  color: #adadad;
+}
+
+.book-summary,
+.book-body {
+  top: 80px;
+}
+
+.book-summary ul.summary li.active {
+  border-right: 3px solid var(--ThemeColor);
+  background: #f3f1f1;
+}
+
+.book-summary ul.summary li.active > a {
+  color: var(--ThemeColor);
+  text-decoration: none;
+}
+
+.book-summary ul.summary li a:hover {
+  text-decoration: none;
+}
+
+.page-inner {
+  max-width: none;
+  padding: 20px 240px 40px 40px;
+}
+
+.header-inner #book-search-input {
+  float: right;
+  width: 300px;
+  margin: 10px 0;
+  padding: 0;
+  border: none;
+  background: var(--ThemeColor);
+  user-select: none;
+}
+
+.header-inner #book-search-input input[type='text'] {
+  width: 80%;
+  background: #e4e4e4;
+}
+
+.header-inner #book-search-input #searchBtn {
+  color: #ffffff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header-inner #book-search-input #searchBtn:hover {
+  color: #eae8e8;
+}
+
+.header-inner {
+  width: 100%;
+  padding: 10px 30px;
+  border-bottom: 1px solid #dededede;
+  margin: auto;
+  *zoom: 1;
+  height: 80px;
+}
+
+.header-inner:before,
+.header-inner:after {
+  content: ' ';
+  display: table;
+  line-height: 0;
+}
+
+.header-inner:after {
+  clear: both;
+}
+
+.header-inner .logo {
+  float: left;
+  height: 60px;
+  width: 120px;
+  background: url('./logo.png');
+  background-size: 120px 60px;
+  background-repeat: no-repeat;
+}
+
+.header-inner .logo img {
+  display: block;
+  height: inherit;
+  padding: 5px 0;
+}
+
+.header-inner .title {
+  float: left;
+  font-size: 20px;
+  line-height: 60px;
+  margin-left: 10px;
+  color: #575656;
+}
+
+/* 导航 */
+.header-inner .header-nav {
+  list-style: none;
+  margin: 10px 20px 0 0;
+  padding: 0;
+  float: right;
+  display: table;
+}
+
+.header-inner .header-nav li {
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 50px;
+  margin-right: 20px;
+  padding: 8px 10px 8px 10px;
+}
+
+.header-inner .header-nav li a {
+  color: #333333;
+}
+
+.header-inner .header-nav li a:hover,
+.header-inner .header-nav li a.active {
+  color: var(--ThemeColor);
+}
+
+.header-inner .header-nav li a.active:hover {
+  cursor: var(--ThemeColor);
+}
+
+@media (max-width: 768px) {
+  .book-summary,
+  .book-body {
+    top: 101px;
+  }
+  .header-inner #book-search-input {
+    clear: both;
+    width: 100%;
+  }
+}
+/*Book inner page end*/
+
+/* Book  anchor*/
+.book-anchor {
+  width: 180px;
+  position: absolute;
+  top: 130px;
+  right: 30px;
+  padding: 0 10px 10px 10px;
+  z-index: 99;
+  user-select: none;
+  border-left: 2px solid #ececec;
+}
+.book-anchor-title {
+  line-height: 38px;
+  font-weight: 460;
+  cursor: pointer;
+}
+.book-anchor-body {
+  max-height: 300px;
+  overflow: auto;
+}
+.book-anchor-body::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 2px; /*高宽分别对应横竖滚动条的尺寸*/
+  height: 2px;
+}
+.book-anchor-body::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 1px;
+  -webkit-box-shadow: inset 0 0 5px #f0f2f5;
+  background: #c0c0c0;
+}
+.book-anchor-body::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px #f0f2f5;
+  border-radius: 2px;
+  background: #fff;
+}
+.book-anchor a {
+  display: block;
+  line-height: 25px;
+  color: #656565;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.book-anchor a:hover {
+  color: var(--ThemeColor);
+  text-decoration: none;
+}
+.book-anchor .selected {
+  color: var(--ThemeColor);
+  text-decoration: none;
+  font-weight: bold;
+}
+.book-anchor .anchor-h1 {
+}
+.book-anchor .anchor-h2 {
+  padding-left: 20px;
+}
+.book-anchor .anchor-h3 {
+  padding-left: 30px;
+}
+
+/* 赞赏码 + 版权 */
+.book-footer {
+  text-align: center;
+  min-width: 360px;
+  margin: 38px auto 0px auto;
+  color: gray;
+  font-size: 12px;
+}
+.copyright {
+  margin: 0 auto;
+}
+.donate {
+  text-align: center;
+  margin: 0 auto 30px;
+}
+.donate button {
+  outline: none;
+  min-width: 80px;
+  margin-top: 10px;
+  background: #e26d6d;
+  color: #fff;
+  border: 1px solid transparent;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+/* 赞赏框 */
+.mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 340px;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.2);
+  z-index: 120;
+  display: none;
+}
+
+.modal .modal-header {
+  margin-left: 15px;
+  margin-top: 10px;
+  height: 50px;
+  padding: 0 15px;
+}
+
+.modal .modal-header span {
+  float: left;
+}
+
+#nickname {
+  margin: 15px auto auto 10px;
+}
+
+.modal .modal-header .title {
+  font-size: 18px;
+  color: #333;
+}
+
+.modal .modal-header img {
+  width: 40px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.modal .modal-header .close {
+  float: right;
+  font-size: 26px;
+  margin-top: -2px;
+  color: #9c9fa4;
+  cursor: default;
+}
+
+.modal .modal-content {
+  min-height: 100px;
+  margin-top: 56px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.message {
+  position: absolute;
+  margin-top: 50px;
+}
+.message .tip span {
+  min-width: 268px;
+  background: #f6f6f6;
+  padding: 0 10px;
+  font-size: 12px;
+  color: gray;
+  border-radius: 3px;
+  margin-top: 10px;
+  position: relative;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.message .tip i {
+  margin-top: 10px;
+  display: block;
+  border-width: 0 7px 7px 7px;
+  border-color: transparent transparent #f6f6f6 transparent;
+  border-style: dashed dashed solid dashed;
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: -7px;
+}
+.modal-pay-way img {
+  width: 82px;
+}
+.modal-pay-way div {
+  display: inline-block;
+  width: 131px;
+}
+.modal-pay-way input[type='radio'] {
+  vertical-align: super;
+}
+.modal-pay-money button {
+  background: #fff;
+  color: #e26d6d;
+  font-weight: bold;
+  width: 28%;
+  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 12px;
+  padding: 6px 12px;
+  outline: none;
+  border: 1px solid #e26d6d;
+  border-radius: 4px;
+}
+.modal-pay-qrcode {
+  margin-top: 10px;
+  padding: 10px;
+}
+.modal-pay-qrcode img {
+  width: 150px;
+}
+
+.markdown-section h1 {
+  color: var(--H1Color);
+}
+.markdown-section h2 {
+  color: var(--H2Color);
+}
+.markdown-section h3 {
+  color: var(--H3Color);
+}
+.markdown-section h4 {
+  color: var(--H4Color);
+}
+.markdown-section h5 {
+  color: var(--H5Color);
+}
+.markdown-section h6 {
+  color: var(--H6Color);
+}
+:root { 
+--ThemeColor: #f34d4d; 
+}
+:root { 
+  --H1Color: #f34d4d; 
+  --H2Color: #f34d4d; 
+  --H3Color: #f34d4d; 
+  --H4Color: #f34d4d; 
+  --H5Color: #f34d4d; 
+  --H6Color: #f34d4d; 
+}
