@@ -20,9 +20,9 @@
 
 
 
-现在你把下载好的服务端核心放到一个空文件夹里![](https://uploader.shimo.im/f/OQXm9Ktehf8tUtZ2.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE2NzQ4Njk4NTksImZpbGVHVUlEIjoiYUJBWVZRWnB4RUl4UFEzaiIsImlhdCI6MTY3NDg2OTU1OSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwidXNlcklkIjo4NTU3Njc0OH0.CIsvKdLYYarmwjUaIsTW9YUbhR6P-pjMCVZZic0SMYE)
+现在你把下载好的服务端核心放到一个空文件夹里![](/assets/serverrun1.png)
 
-单击这个位置，输入cmd然后回车，他会蹦出来一个黑框子![](https://uploader.shimo.im/f/ppLB9K1xXwNI7BLx.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE2NzQ4Njk4NTksImZpbGVHVUlEIjoiYUJBWVZRWnB4RUl4UFEzaiIsImlhdCI6MTY3NDg2OTU1OSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwidXNlcklkIjo4NTU3Njc0OH0.CIsvKdLYYarmwjUaIsTW9YUbhR6P-pjMCVZZic0SMYE)
+单击这个位置，输入cmd然后回车，他会蹦出来一个黑框子![](/assets/serverrun2.png)
 
 如果你操作无误的话，他会显示出你的路径， &gt; 后面是让你输入命令
 
@@ -34,11 +34,11 @@ java -jar 核心名
 
 如果说，你看到你的**核心没有 .jar 这个后缀**，[点这里](https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E6%96%87%E4%BB%B6%E6%B2%A1%E6%9C%89%E5%90%8E%E7%BC%80%E5%90%8D&fenlei=256&rsv_pq=0xe310bede00000e11&rsv_t=80d30uPpZ8IG0Sx5B9XUoUCjn4stzuMX8ldGnnI5C1ZuntmoYf4rBQE6nFRJ&rqlang=en&rsv_enter=1&rsv_dl=tb&rsv_sug3=28&rsv_sug1=17&rsv_sug7=100&rsv_sug2=0&rsv_btype=i&inputT=3495&rsv_sug4=5417)
 
-![](https://uploader.shimo.im/f/9s7RryozGtIpc9cW.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE2NzQ4Njk4NTksImZpbGVHVUlEIjoiYUJBWVZRWnB4RUl4UFEzaiIsImlhdCI6MTY3NDg2OTU1OSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwidXNlcklkIjo4NTU3Njc0OH0.CIsvKdLYYarmwjUaIsTW9YUbhR6P-pjMCVZZic0SMYE)
+![](/assets/serverrun3.png)
 
 回车执行命令后，你的服务器应该启动了
 
-![](https://uploader.shimo.im/f/6ygD9qf9HVqO4deh.jpg!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE2NzQ4Njk4NTksImZpbGVHVUlEIjoiYUJBWVZRWnB4RUl4UFEzaiIsImlhdCI6MTY3NDg2OTU1OSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwidXNlcklkIjo4NTU3Njc0OH0.CIsvKdLYYarmwjUaIsTW9YUbhR6P-pjMCVZZic0SMYE)\[时间 ERROR\]: Failed to load properties from file: server.properties
+![](/assets/serverrun4.jpg)\[时间 ERROR\]: Failed to load properties from file: server.properties
 
 > \[时间 WARN\]: Failed to load eula.txt
 

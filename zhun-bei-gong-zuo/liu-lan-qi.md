@@ -122,8 +122,7 @@ https://github.com/EssentialsX/Essentials/releases/download/2.19.7/EssentialsX-2
 ```
 https://kgithub.com/EssentialsX/Essentials/releases/download/2.19.7/EssentialsX-2.19.7.jar
 ```
-
-![](https://uploader.shimo.im/f/bs33XAvWR9LtVXXo.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE2NzQ4Njk1NjgsImZpbGVHVUlEIjoiYUJBWVZRWnB4RUl4UFEzaiIsImlhdCI6MTY3NDg2OTI2OCwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwidXNlcklkIjo4NTU3Njc0OH0.tCSecBLmwDP5BiZ9wJQXExg1CjPbWBeNg6KvHyGqGQs)
+![](/assets/jingxiangshisha.png)
 
 意料之外的提问
 

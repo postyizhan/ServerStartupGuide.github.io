@@ -48,7 +48,7 @@ purpur\|paper端的分支之河豚端的分支，和paper相比有更多的可�
 
 
 
-![](https://uploader.shimo.im/f/Xbjr9vvU7K7KIuLb.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE2NzQ4Njk1NjgsImZpbGVHVUlEIjoiYUJBWVZRWnB4RUl4UFEzaiIsImlhdCI6MTY3NDg2OTI2OCwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwidXNlcklkIjo4NTU3Njc0OH0.tCSecBLmwDP5BiZ9wJQXExg1CjPbWBeNg6KvHyGqGQs)
+![](/assets/spigotZhiChibukkitPlugin.png)
 
 
 

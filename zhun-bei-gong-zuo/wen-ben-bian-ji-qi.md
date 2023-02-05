@@ -36,11 +36,13 @@ Matrix（国内知名反作弊）作者在群内发的一些截图，看上去�
 
 **为什么要装两个呢？**![](/assets/Screenshot_2023-01-27-11-52-51-926_tv.danmaku.bil.jpg)
 
+## [notdpad--](https://gitee.com/cxasm/notepad--)
+![](/assets/notepad--.png)
+看名字就知道直接对标notepad++
+项目地址:[GitHub](https://github.com/cxasm/notepad--)   [gitee](https://gitee.com/cxasm/notepad--)
+
 **现在我想卸载notepad++啦**
 
 推荐用[geek](https://geekuninstaller.com/)
-
-![](https://geekuninstaller.com/favicon.ico)
-
 ![](https://geekuninstaller.com/assets/images/boxshot.png)
 

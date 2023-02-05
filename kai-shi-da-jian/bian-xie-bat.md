@@ -58,7 +58,7 @@ title test是什么？ 设置你窗口的标题，用中文结果乱码请自行
 
 还有一个pause没讲哦
 
-![](https://uploader.shimo.im/f/MEBiZgUCBKLcDFs6.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE2NzQ4Njk4NTksImZpbGVHVUlEIjoiYUJBWVZRWnB4RUl4UFEzaiIsImlhdCI6MTY3NDg2OTU1OSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwidXNlcklkIjo4NTU3Njc0OH0.CIsvKdLYYarmwjUaIsTW9YUbhR6P-pjMCVZZic0SMYE)
+![](/assets/pause.png)
 
 pause命令可以让脚本程序暂停， 会打印输出 “请按任意键继续...”字样。
 
