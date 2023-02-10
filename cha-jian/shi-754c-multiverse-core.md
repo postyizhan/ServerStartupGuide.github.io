@@ -53,24 +53,11 @@ Multiverse-NetherPortals
 
 
 #创建世界
-/mv create 
-<
-名字
->
-<
-环境
->
- -s [种子] -g [生成器[:ID]] -t [生成器] [-n] -a [true|false]
+/mv create <名字> <环境> -s [种子] -g [生成器[:ID]] -t [生成器] [-n] -a [true|false]
 
 
 #简单创建世界
-/mv create 
-<
-名字
->
-<
-环境
->
+/mv create <名字><环境>
 
 #名字不要用中文
 #环境（原版）：
@@ -80,14 +67,7 @@ Multiverse-NetherPortals
 
 
 #复制某个世界
-/mv clone 
-<
-目标
->
-<
-名字
->
- -g [生成器[:ID]]
+/mv clone <目标><名字> -g [生成器[:ID]]
 
 
 #重置当前世界的默认出生点为脚下
@@ -95,32 +75,15 @@ Multiverse-NetherPortals
 
 
 #将玩家传送至某世界 出生点请参考 Setspawn 命令
-/mv tp 
-<
-ID
->
-<
-世界
->
+/mv tp <ID><世界>
 
-#/mv tp 
-<
-世界
->
- 就是把自己传送过去
+#/mv tp <世界> 就是把自己传送过去
 
 
 #重新生成某个世界，将会清空世界内所有方块
-/mv regen 
-<
-世界
->
- [-s [SEED]]
+/mv regen <世界> [-s [SEED]]
 #使用原有的种子重新生成世界
-/mv regen 
-<
-世界
->
+/mv regen <世界>
 
 
 
